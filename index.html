@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DA Tezos Test App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my Tezos Test App</h1>
+        <button id="connectWalletButton" aria-label="Connect to your Tezos Wallet">Sync Wallet</button>
+        <div id="walletInfo" class="info"></div>
+
+        <div id="ownershipVerified" style="display: none;">
+          <p>Welcome, NFT owner!</p>
+          <a id="downloadLink"></a>
+        </div>
+
+        <div id="noOwnership" style="display: none;">
+            <p>You do not own the NFT. Find it on <a id="objktLink" target="_blank">Objkt</a>.</p>
+        </div>
+    </div>
+
+    <script src="./app/bundle.js"></script>
+</body>
+</html>

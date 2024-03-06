@@ -1,0 +1,24 @@
+{
+  "name": "tezos-login",
+  "version": "1.0.0",
+  "description": "Tezos Login",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "author": "Digital Altar",
+  "dependencies": {
+    "@taquito/beacon-wallet": "^19.0.2",
+    "@taquito/taquito": "^19.0.2",
+    "@tzkt/ext-taquito": "^2.2.1",
+    "buffer": "^6.0.3",
+    "stream-browserify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
